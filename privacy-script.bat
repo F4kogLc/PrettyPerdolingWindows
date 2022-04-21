@@ -177,8 +177,8 @@ reg add "HKCU\SOFTWARE\Microsoft\Input\TIPC" /v "Enabled" /t REG_DWORD /d 0 /f
 :: ----------------------------------------------------------
 :: ------------------Disable Activity Feed-------------------
 :: ----------------------------------------------------------
-echo --- Disable Activity Feed
-reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v "EnableActivityFeed" /d "0" /t REG_DWORD /f
+:: echo --- Disable Activity Feed
+:: reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v "EnableActivityFeed" /d "0" /t REG_DWORD /f
 :: ----------------------------------------------------------
 
 
@@ -502,9 +502,9 @@ reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Applets\Regedit\Favor
 :: ----------------------------------------------------------
 :: -----------Clear list of recent programs opened-----------
 :: ----------------------------------------------------------
-echo --- Clear list of recent programs opened
-reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU" /va /f
-reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRULegacy" /va /f
+:: echo --- Clear list of recent programs opened
+:: reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU" /va /f
+:: reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRULegacy" /va /f
 :: ----------------------------------------------------------
 
 
@@ -553,10 +553,10 @@ reg delete "HKCU\Software\Microsoft\Search Assistant\ACMru" /va /f
 :: ----------------------------------------------------------
 :: ------Clear list of Recent Files Opened, by Filetype------
 :: ----------------------------------------------------------
-echo --- Clear list of Recent Files Opened, by Filetype
-reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs" /va /f
-reg delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs" /va /f
-reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU" /va /f
+:: echo --- Clear list of Recent Files Opened, by Filetype
+:: reg delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs" /va /f
+:: reg delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs" /va /f
+:: reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU" /va /f
 :: ----------------------------------------------------------
 
 
@@ -592,8 +592,8 @@ reg delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths" 
 :: ----------------------------------------------------------
 :: --------------Clear recently accessed files---------------
 :: ----------------------------------------------------------
-echo --- Clear recently accessed files
-del /f /q "%APPDATA%\Microsoft\Windows\Recent\AutomaticDestinations\*"
+:: echo --- Clear recently accessed files
+:: del /f /q "%APPDATA%\Microsoft\Windows\Recent\AutomaticDestinations\*"
 :: ----------------------------------------------------------
 
 
