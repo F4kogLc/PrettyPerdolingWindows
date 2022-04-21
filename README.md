@@ -219,6 +219,8 @@
 - Holographic First Run app
 - Windows 10 Family Safety / Parental Controls app
 - Windows Feedback app
+- Windows Camera app
+- Windows Voice Recorder app
 - CBS Preview app
 - <s>Disable all settings sync</s>
 - <s>Disable Application Setting Sync</s>
