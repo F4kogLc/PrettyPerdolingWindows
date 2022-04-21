@@ -237,7 +237,7 @@
 - Your Phone app
 - Mixed Reality Portal app
 - Microsoft Tips app
-- Microsoft Tips app
+- Get Help app
 - Paint 3D app
 - Print 3D app
 - Kill OneDrive process
