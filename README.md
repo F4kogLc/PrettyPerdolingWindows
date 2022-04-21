@@ -237,6 +237,7 @@
 - Your Phone app
 - Mixed Reality Portal app
 - Microsoft Tips app
+- Microsoft To Do app
 - Get Help app
 - Paint 3D app
 - Print 3D app
