@@ -2384,6 +2384,19 @@ echo --- Microsoft People app
 PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Microsoft.People' | Remove-AppxPackage"
 :: ----------------------------------------------------------
 
+:: ----------------------------------------------------------
+:: --------------------Windows Camera app--------------------
+:: ----------------------------------------------------------
+echo --- Windows Camera app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Microsoft.WindowsCamera' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+:: ----------------------------------------------------------
+:: ----------------Windows Voice Recorder app----------------
+:: ----------------------------------------------------------
+echo --- Windows Voice Recorder app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Microsoft.WindowsSoundRecorder' | Remove-AppxPackage"
+:: ----------------------------------------------------------
 
 :: ----------------------------------------------------------
 :: ---------------------Groove Music app---------------------
