@@ -240,6 +240,24 @@
 - Get Help app
 - Paint 3D app
 - Print 3D app
+- Skype app
+- 3D Viewer app
+- Windows Alarms and Clock app
+- Mail and Calendar app
+- Microsoft Solitaire Collection app
+- Microsoft Sticky Notes app
+- OneNote app
+- Shazam app
+- Candy Crush Saga app
+- Flipboard app
+- Twitter app
+- iHeartRadio app
+- Duolingo app
+- Photoshop Express app
+- Pandora app
+- Eclipse Manager app
+- Code Writer app
+- Spotify app
 - Kill OneDrive process
 - Uninstall OneDrive
 - Remove OneDrive leftovers
@@ -250,4 +268,3 @@
 - Remove OneDrive from explorer menu
 - Delete all OneDrive related Services
 - Delete OneDrive path from registry
-- Skype app
