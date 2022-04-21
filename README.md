@@ -238,7 +238,9 @@
 - Mixed Reality Portal app
 - Microsoft Tips app
 - Microsoft To Do app
+- Microsoft People app
 - Get Help app
+- Groove Music app
 - Paint 3D app
 - Print 3D app
 - Skype app
