@@ -2378,6 +2378,21 @@ PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Microsoft.To
 :: ----------------------------------------------------------
 
 :: ----------------------------------------------------------
+:: -------------------Microsoft People app-------------------
+:: ----------------------------------------------------------
+echo --- Microsoft People app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Microsoft.People' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+
+:: ----------------------------------------------------------
+:: ---------------------Groove Music app---------------------
+:: ----------------------------------------------------------
+echo --- Groove Music app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Microsoft.ZuneMusic' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+:: ----------------------------------------------------------
 :: -----------------------OneNote app------------------------
 :: ----------------------------------------------------------
 echo --- OneNote app
