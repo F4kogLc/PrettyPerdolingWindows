@@ -2335,6 +2335,135 @@ echo --- Skype app
 PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Microsoft.SkypeApp' | Remove-AppxPackage"
 :: ----------------------------------------------------------
 
+:: ----------------------------------------------------------
+:: ----------------------3D Viewer app-----------------------
+:: ----------------------------------------------------------
+echo --- 3D Viewer app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Microsoft.Microsoft3DViewer' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+:: ----------------------------------------------------------
+:: ---------------Windows Alarms and Clock app---------------
+:: ----------------------------------------------------------
+echo --- Windows Alarms and Clock app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Microsoft.WindowsAlarms' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+:: ----------------------------------------------------------
+:: ------------------Mail and Calendar app-------------------
+:: ----------------------------------------------------------
+echo --- Mail and Calendar app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'microsoft.windowscommunicationsapps' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+:: ----------------------------------------------------------
+:: ------------Microsoft Solitaire Collection app------------
+:: ----------------------------------------------------------
+echo --- Microsoft Solitaire Collection app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Microsoft.MicrosoftSolitaireCollection' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+:: ----------------------------------------------------------
+:: ----------------Microsoft Sticky Notes app----------------
+:: ----------------------------------------------------------
+echo --- Microsoft Sticky Notes app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Microsoft.MicrosoftStickyNotes' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+:: ----------------------------------------------------------
+:: -----------------------OneNote app------------------------
+:: ----------------------------------------------------------
+echo --- OneNote app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Microsoft.Office.OneNote' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+:: ----------------------------------------------------------
+:: ------------------------Shazam app------------------------
+:: ----------------------------------------------------------
+echo --- Shazam app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'ShazamEntertainmentLtd.Shazam' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+
+:: ----------------------------------------------------------
+:: -------------------Candy Crush Saga app-------------------
+:: ----------------------------------------------------------
+echo --- Candy Crush Saga app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'king.com.CandyCrushSaga' | Remove-AppxPackage"
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'king.com.CandyCrushSodaSaga' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+
+:: ----------------------------------------------------------
+:: ----------------------Flipboard app-----------------------
+:: ----------------------------------------------------------
+echo --- Flipboard app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Flipboard.Flipboard' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+
+:: ----------------------------------------------------------
+:: -----------------------Twitter app------------------------
+:: ----------------------------------------------------------
+echo --- Twitter app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage '9E2F88E3.Twitter' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+
+:: ----------------------------------------------------------
+:: ---------------------iHeartRadio app----------------------
+:: ----------------------------------------------------------
+echo --- iHeartRadio app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'ClearChannelRadioDigital.iHeartRadio' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+
+:: ----------------------------------------------------------
+:: -----------------------Duolingo app-----------------------
+:: ----------------------------------------------------------
+echo --- Duolingo app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'D5EA27B7.Duolingo-LearnLanguagesforFree' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+
+:: ----------------------------------------------------------
+:: ------------------Photoshop Express app-------------------
+:: ----------------------------------------------------------
+echo --- Photoshop Express app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'AdobeSystemIncorporated.AdobePhotoshop' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+
+:: ----------------------------------------------------------
+:: -----------------------Pandora app------------------------
+:: ----------------------------------------------------------
+echo --- Pandora app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'PandoraMediaInc.29680B314EFC2' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+
+:: ----------------------------------------------------------
+:: -------------------Eclipse Manager app--------------------
+:: ----------------------------------------------------------
+echo --- Eclipse Manager app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage '46928bounde.EclipseManager' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+
+:: ----------------------------------------------------------
+:: ---------------------Code Writer app----------------------
+:: ----------------------------------------------------------
+echo --- Code Writer app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'ActiproSoftwareLLC.562882FEEB491' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+
+:: ----------------------------------------------------------
+:: -----------------------Spotify app------------------------
+:: ----------------------------------------------------------
+echo --- Spotify app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'SpotifyAB.SpotifyMusic' | Remove-AppxPackage"
+:: ----------------------------------------------------------
 
 pause
 exit /b 0
