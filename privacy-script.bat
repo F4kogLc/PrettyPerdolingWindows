@@ -2371,6 +2371,13 @@ PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Microsoft.Mi
 :: ----------------------------------------------------------
 
 :: ----------------------------------------------------------
+:: -------------------Microsoft To Do app--------------------
+:: ----------------------------------------------------------
+echo --- Microsoft To Do app
+PowerShell -ExecutionPolicy Unrestricted -Command "Get-AppxPackage 'Microsoft.Todos' | Remove-AppxPackage"
+:: ----------------------------------------------------------
+
+:: ----------------------------------------------------------
 :: -----------------------OneNote app------------------------
 :: ----------------------------------------------------------
 echo --- OneNote app
