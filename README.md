@@ -117,10 +117,10 @@
 - Disable ad customization with Advertising ID
 - Turn Off Suggested Content in Settings app
 - Disable Windows Insider Service
-- Do not let Microsoft try features on this build
-- Disable getting preview builds of Windows
-- Disable connected user experiences and telemetry service
-- Disable WAP push message routing service
+- Do not let Microsoft try features on this build [(Link)](https://admx.help/?Category=Windows_10_2016&Policy=Microsoft.Policies.DataCollection::EnableExperimentation)
+- Disable getting preview builds of Windows [(Link)](https://admx.help/?Category=Windows_10_2016&Policy=Microsoft.Policies.AllowBuildPreview::AllowBuildPreview)
+- Disable connected user experiences and telemetry service [(Link)](http://batcmd.com/windows/10/services/diagtrack/)
+- Disable WAP push message routing service [(Link)](http://batcmd.com/windows/10/services/dmwappushservice/)
 - Disable devicecensus.exe (telemetry) task
 - Disable devicecensus.exe (telemetry) process
 - Disable sending information to Customer Experience Improvement Program
@@ -162,25 +162,25 @@
 - Disable NVIDIA telemetry services
 - Disable Microsoft Office logging
 - Disable client telemetry
-- Customer Experience Improvement Program
+- Customer Experience Improvement Program [(Link)](https://www.stigviewer.com/stig/microsoft_office_system_2013/2014-12-23/finding/V-17612)
 - Disable feedback
 - Disable telemetry agent
 - Do not send Windows Media Player statistics
 - Disable metadata retrieval
-- Disable Windows Media Player Network Sharing Service
+- Disable Windows Media Player Network Sharing Service [(Link)](http://batcmd.com/windows/10/services/wmpnetworksvc/)
 - Disable SQM OS key
 - Disable SQM group policy
 - Disable live tile data collection
-- Disable MFU tracking
-- <s>Disable recent apps</s>
-- Turn off backtracking
+- Disable MFU tracking [(Link)](https://admx.help/?Category=Windows_10_2016&Policy=Microsoft.Policies.EdgeUI::DisableMFUTracking)
+- <s>Disable recent apps</s> [(Link)](https://admx.help/?Category=Windows_10_2016&Policy=Microsoft.Policies.EdgeUI::DisableRecentApps)
+- Turn off backtracking [(Link)](https://admx.help/?Category=Windows_10_2016&Policy=Microsoft.Policies.EdgeUI::TurnOffBackstack)
 - Disable Search Suggestions in Edge
 - Disable Geolocation in Internet Explorer
 - Disable Internet Explorer InPrivate logging
-- Disable Internet Explorer CEIP
+- Disable Internet Explorer CEIP [(Link)](https://www.stigviewer.com/stig/internet_explorer_8/2014-07-03/finding/V-15492)
 - Disable calling legacy WCM policies
-- Disable SSLv3 fallback
-- Disable ignoring cert errors
+- Disable SSLv3 fallback [(Link)](https://www.stigviewer.com/stig/microsoft_internet_explorer_11/2018-04-02/finding/V-64729)
+- Disable ignoring cert errors [(Link)](https://www.stigviewer.com/stig/microsoft_internet_explorer_11/2017-03-01/finding/V-64717)
 - Disable Chrome Software Reporter Tool
 - Disable Chrome metrics reporting (shows "Your browser is managed")
 - Disable Firefox metrics reporting
@@ -188,15 +188,15 @@
 - Disable sending site information (shows "Your browser is managed")
 - Do not share scanned software data to Google (shows "Your browser is managed")
 - Prevent Chrome from scanning the system for cleanup (shows "Your browser is managed")
-- Disable default browser agent reporting policy
+- Disable default browser agent reporting policy [(Link)](https://www.bleepingcomputer.com/news/software/firefox-now-tells-mozilla-what-your-default-browser-is-every-day/)
 - Disable default browser agent reporting services
-- Disable unsafe SMBv1 protocol
-- Disable PowerShell 2.0 against downgrade attacks
-- Disable online tips
-- Turn off Internet File Association service
-- Turn off the "Order Prints" picture task
-- Disable the file and folder Publish to Web option
-- Prevent downloading a list of providers for wizards
+- Disable unsafe SMBv1 protocol [(Link)](https://techcommunity.microsoft.com/t5/storage-at-microsoft/stop-using-smb1/ba-p/425858)
+- Disable PowerShell 2.0 against downgrade attacks [(Link)](https://www.stigviewer.com/stig/windows_10/2017-02-21/finding/V-70637)
+- Disable online tips [(Link)](https://admx.help/?Category=Windows_10_2016&Policy=Microsoft.Policies.ControlPanel::AllowOnlineTips)
+- Turn off Internet File Association service [(Link)](https://admx.help/?Category=Windows_10_2016&Policy=Microsoft.Policies.InternetCommunicationManagement::ShellNoUseInternetOpenWith_2)
+- Turn off the "Order Prints" picture task [(Link1)](https://admx.help/?Category=Windows_10_2016&Policy=Microsoft.Policies.InternetCommunicationManagement::ShellRemoveOrderPrints_2) [(Link2)](https://www.stigviewer.com/stig/microsoft_windows_server_2012_member_server/2013-07-25/finding/WN12-CC-000042)
+- Disable the file and folder Publish to Web option [(Link)](https://www.stigviewer.com/stig/windows_server_2012_member_server/2014-01-07/finding/V-14255)
+- Prevent downloading a list of providers for wizards [(Link)](https://www.stigviewer.com/stig/windows_10/2017-12-01/finding/V-63621)
 - Xbox Live Auth Manager
 - Xbox Live Game Save
 - Xbox Live Networking Service
