@@ -1,50 +1,50 @@
 ## Features
 
-- Delete controversial default0 user
+- Delete controversial default0 user (https://github.com/undergroundwires/privacy.sexy/issues/30)
 - Enable Reset Base in Dism Component Store
 - Remove Default Apps Associations
-- Clear (Reset) Network Data Usage
-- Disable cloud speech recognition
+- Clear (Reset) Network Data Usage [(Link)](https://www.windowslifestyle.com/reset-data-usage-tool-reset-network-data-usage-windows-10/)
+- Disable cloud speech recognition [(Link)](https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#186-speech)
 - Opt out from Windows privacy consent
-- Disable Windows feedback
+- Disable Windows feedback [(Link)](https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#1816-feedback--diagnostics)
 - Disable text and handwriting collection
 - Turn off sensors
 - Disable Wi-Fi sense
 - Disable Inventory Collector
-- Disable Website Access of Language List
+- Disable Website Access of Language List [(Link)](https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#181-general)
 - Disable Auto Downloading Maps
 - Disable steps recorder
 - Disable game screen recording
-- Disable Windows DRM internet access
+- Disable Windows DRM internet access [(Link)](https://admx.help/?Category=Windows_10_2016&Policy=Microsoft.Policies.DigitalRights2::DisableOnline)
 - Disable feedback on write (sending typing info)
 - Disable Activity Feed
 - Disable NET Core CLI telemetry
-- Disable PowerShell 7+ telemetry
-- <s>Disable Google update service</s>
+- Disable PowerShell 7+ telemetry [(Link)](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_telemetry?view=powershell-7.2)
+- <s>Disable Google update service</s> [(Link1)](https://websetnet.net/how-to-disable-google-chrome-automatic-updates-in-windows-10/) [(Link2)](https://www.bleepingcomputer.com/startups/GoogleUpdate.exe-25791.html) [(Link3)](https://www.bleepingcomputer.com/startups/GoogleUpdate.exe-26582.html)
 - Disable Adobe Acrobat update service
 - Disable Razer Game Scanner Service
 - Disable Logitech Gaming Registry Service
 - Disable Dropbox auto update service
 - Disable administrative shares
-- Disable AutoPlay and AutoRun
-- Disable remote Assistance
-- Disable lock screen camera
-- Prevent the storage of the LAN Manager hash of passwords
-- Disable Windows Installer Always install with elevated privileges
-- Prevent WinRM from using Basic Authentication
-- Restrict anonymous enumeration of shares
-- Refuse less secure authentication
-- <s>Enable Structured Exception Handling Overwrite Protection (SEHOP)</s>
-- Block Anonymous enumeration of SAM accounts
-- Restrict anonymous access to Named Pipes and Shares
-- Disable the Windows Connect Now wizard
-- Disable lock screen app notifications
-- Disable Live Tiles push notifications
-- Turn off "Look For An App In The Store" option
-- Delivery Optimization (P2P Windows Updates)
-- Program Compatibility Assistant Service
-- Downloaded Maps Manager
-- Microsoft Retail Demo experience
+- Disable AutoPlay and AutoRun [(Link1)](https://en.wikipedia.org/wiki/AutoRun) [(Link2)](https://www.stigviewer.com/stig/windows_10/2019-01-04/finding/V-63667) [(Link3)](https://www.stigviewer.com/stig/windows_10/2019-01-04/finding/V-63671) [(Link4)](https://www.stigviewer.com/stig/windows_10/2019-01-04/finding/V-63673)
+- Disable remote Assistance [(Link)](https://www.stigviewer.com/stig/windows_10/2019-01-04/finding/V-63651)
+- Disable lock screen camera [(Link)](https://www.stigviewer.com/stig/windows_8_8.1/2014-06-27/finding/V-43237)
+- Prevent the storage of the LAN Manager hash of passwords [(Link)](https://www.stigviewer.com/stig/windows_10/2019-01-04/finding/V-63797)
+- Disable Windows Installer Always install with elevated privileges [(Link)](https://www.stigviewer.com/stig/windows_8/2013-07-03/finding/V-34974)
+- Prevent WinRM from using Basic Authentication [(Link)](https://www.stigviewer.com/stig/windows_10/2019-01-04/finding/V-63335)
+- Restrict anonymous enumeration of shares [(Link)](https://www.stigviewer.com/stig/windows_10/2019-01-04/finding/V-63749)
+- Refuse less secure authentication [(Link1)](https://www.stigviewer.com/stig/windows_10/2019-01-04/finding/V-63801) [(Link2)](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-lan-manager-authentication-level)
+- <s>Enable Structured Exception Handling Overwrite Protection (SEHOP)</s> [(Link)](https://www.stigviewer.com/stig/windows_10/2019-01-04/finding/V-68849)
+- Block Anonymous enumeration of SAM accounts [(Link)](https://www.stigviewer.com/stig/windows_10/2019-01-04/finding/V-63745)
+- Restrict anonymous access to Named Pipes and Shares [(Link)](https://www.stigviewer.com/stig/windows_10/2019-01-04/finding/V-63759)
+- Disable the Windows Connect Now wizard [(Link1)](https://docs.microsoft.com/en-us/windows/win32/wcn/about-windows-connect-now) [(Link2)](https://www.stigviewer.com/stig/windows_server_20122012_r2_domain_controller/2019-01-16/finding/V-15698)
+- Disable lock screen app notifications [(Link)](https://www.stigviewer.com/stig/windows_server_2012_member_server/2014-01-07/finding/V-36687)
+- Disable Live Tiles push notifications [(Link)](https://admx.help/?Category=Windows_10_2016&Policy=Microsoft.Policies.Notifications::NoTileNotification)
+- Turn off "Look For An App In The Store" option [(Link1)](https://www.stigviewer.com/stig/microsoft_windows_server_2012_member_server/2013-07-25/finding/WN12-CC-000030) [(Link2)](https://admx.help/?Category=Windows_10_2016&Policy=Microsoft.Policies.InternetCommunicationManagement::ShellNoUseStoreOpenWith_1)
+- Delivery Optimization (P2P Windows Updates) [(Link1)](https://docs.microsoft.com/en-us/windows/deployment/do/waas-delivery-optimization) [(Link2)](http://batcmd.com/windows/10/services/dosvc/) [(Link3)](https://docs.microsoft.com/en-us/windows/deployment/do/delivery-optimization-workflow)
+- Program Compatibility Assistant Service [(Link)](http://batcmd.com/windows/10/services/pcasvc/)
+- Downloaded Maps Manager [(Link)](http://batcmd.com/windows/10/services/mapsbroker/)
+- Microsoft Retail Demo experience [(Link)](http://batcmd.com/windows/10/services/retaildemo/)
 - Clear Flash traces
 - Clear Steam dumps, logs, and traces
 - Clear Visual Studio telemetry and feedback data
@@ -87,7 +87,7 @@
 - Clear Windows update and SFC scan logs
 - Clear Windows Update Medic Service logs
 - Clear Cryptographic Services Traces
-- Disable Customer Experience Improvement (CEIP/SQM)
+- Disable Customer Experience Improvement (CEIP/SQM) [(Link)](https://docs.microsoft.com/en-us/windows/win32/devnotes/ceipenable)
 - Disable Application Impact Telemetry (AIT)
 - Disable Customer Experience Improvement Program
 - Disable telemetry in data collection policy
