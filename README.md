@@ -17,7 +17,7 @@
 - Disable game screen recording
 - Disable Windows DRM internet access
 - Disable feedback on write (sending typing info)
-- <s>Disable Activity Feed</s>
+- Disable Activity Feed
 - Disable NET Core CLI telemetry
 - Disable PowerShell 7+ telemetry
 - <s>Disable Google update service</s>
@@ -34,7 +34,7 @@
 - Prevent WinRM from using Basic Authentication
 - Restrict anonymous enumeration of shares
 - Refuse less secure authentication
-- Enable Structured Exception Handling Overwrite Protection (SEHOP)
+- <s>Enable Structured Exception Handling Overwrite Protection (SEHOP)</s>
 - Block Anonymous enumeration of SAM accounts
 - Restrict anonymous access to Named Pipes and Shares
 - Disable the Windows Connect Now wizard
