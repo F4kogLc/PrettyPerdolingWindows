@@ -177,8 +177,8 @@ reg add "HKCU\SOFTWARE\Microsoft\Input\TIPC" /v "Enabled" /t REG_DWORD /d 0 /f
 :: ----------------------------------------------------------
 :: ------------------Disable Activity Feed-------------------
 :: ----------------------------------------------------------
-:: echo --- Disable Activity Feed
-:: reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v "EnableActivityFeed" /d "0" /t REG_DWORD /f
+echo --- Disable Activity Feed
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v "EnableActivityFeed" /d "0" /t REG_DWORD /f
 :: ----------------------------------------------------------
 
 
@@ -323,8 +323,8 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\Lsa" /v "LmCompatibilityLevel" /t
 
 
 :: Enable Structured Exception Handling Overwrite Protection (SEHOP)
-echo --- Enable Structured Exception Handling Overwrite Protection (SEHOP)
-reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\kernel" /v "DisableExceptionChainValidation" /t REG_DWORD /d 0 /f
+:: echo --- Enable Structured Exception Handling Overwrite Protection (SEHOP)
+:: reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\kernel" /v "DisableExceptionChainValidation" /t REG_DWORD /d 0 /f
 :: ----------------------------------------------------------
 
 
